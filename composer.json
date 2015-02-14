@@ -1,0 +1,30 @@
+{
+    "name": "rodeob/logger",
+    "description": "PSR-3 Logger",
+    "keywords": [
+        "psr3",
+        "logger",
+        "writers"
+    ],
+    "autoload": {
+        "psr-4": {
+            "logger\\": "src/logger/"
+        }
+    },
+    "require": {
+        "php" :    ">=5.5",
+        "psr/log": "1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":           "4.*",
+        "sebastian/phpcpd":          "*",
+        "phpmd/phpmd" :              "2.*",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "authors": [
+        {
+            "name": "Blaž Strmole",
+            "email": "rodeob@gmail.com"
+        }
+    ]
+}
